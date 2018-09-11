@@ -247,6 +247,15 @@
             $button__color--disabled--dark
           );
         }
+
+        .#{$contrast-class} & {
+          @include button-color(
+          $color: $button__font-color--alt,
+          $bg: $button--blue__background-color--contrast,
+          $bg-hover: $button--blue__background-color--hover--contrast,
+          $bg-active: $button--blue__background-color--active--contrast
+          );
+        }
       }
 
       &--red {
@@ -261,6 +270,15 @@
           @include button-color-disabled(
             $button__font-color--disabled--dark,
             $button__color--disabled--dark
+          );
+        }
+
+        .#{$contrast-class} & {
+          @include button-color(
+          $color: $button__font-color--alt,
+          $bg: $button--red__background-color--contrast,
+          $bg-hover: $button--red__background-color--hover--contrast,
+          $bg-active: $button--red__background-color--active--contrast
           );
         }
       }
@@ -279,6 +297,15 @@
             $button__color--disabled--dark
           );
         }
+
+        .#{$contrast-class} & {
+          @include button-color(
+          $color: $button__font-color--alt,
+          $bg: $button--green__background-color--contrast,
+          $bg-hover: $button--green__background-color--hover--contrast,
+          $bg-active: $button--green__background-color--active--contrast
+          );
+        }
       }
 
       &--orange {
@@ -293,6 +320,15 @@
           @include button-color-disabled(
             $button__font-color--disabled--dark,
             $button__color--disabled--dark
+          );
+        }
+
+        .#{$contrast-class} & {
+          @include button-color(
+          $color: $button__font-color--alt,
+          $bg: $button--orange__background-color--contrast,
+          $bg-hover: $button--orange__background-color--hover--contrast,
+          $bg-active: $button--orange__background-color--active--contrast
           );
         }
       }
@@ -311,6 +347,15 @@
             $button__color--disabled--dark
           );
         }
+
+        .#{$contrast-class} & {
+          @include button-color(
+          $color: $button__font-color--alt,
+          $bg: $button--yellow__background-color--contrast,
+          $bg-hover: $button--yellow__background-color--hover--contrast,
+          $bg-active: $button--yellow__background-color--active--contrast
+          );
+        }
       }
 
       &--mint {
@@ -325,6 +370,15 @@
           @include button-color-disabled(
             $button__font-color--disabled--dark,
             $button__color--disabled--dark
+          );
+        }
+
+        .#{$contrast-class} & {
+          @include button-color(
+          $color: $button__font-color--alt,
+          $bg: $button--mint__background-color--contrast,
+          $bg-hover: $button--mint__background-color--hover--contrast,
+          $bg-active: $button--mint__background-color--active--contrast
           );
         }
       }
@@ -343,6 +397,15 @@
             $button__color--disabled--dark
           );
         }
+
+        .#{$contrast-class} & {
+          @include button-color(
+          $color: $button__font-color--alt,
+          $bg: $button--purple__background-color--contrast,
+          $bg-hover: $button--purple__background-color--hover--contrast,
+          $bg-active: $button--purple__background-color--active--contrast
+          );
+        }
       }
 
       &--pink {
@@ -359,6 +422,15 @@
             $button__color--disabled--dark
           );
         }
+
+        .#{$contrast-class} & {
+          @include button-color(
+          $color: $button__font-color--alt,
+          $bg: $button--pink__background-color--contrast,
+          $bg-hover: $button--pink__background-color--hover--contrast,
+          $bg-active: $button--pink__background-color--active--contrast
+          );
+        }
       }
 
       &--cyan {
@@ -373,6 +445,15 @@
           @include button-color-disabled(
             $button__font-color--disabled--dark,
             $button__color--disabled--dark
+          );
+        }
+
+        .#{$contrast-class} & {
+          @include button-color(
+          $color: $button__font-color--alt,
+          $bg: $button--cyan__background-color--contrast,
+          $bg-hover: $button--cyan__background-color--hover--contrast,
+          $bg-active: $button--cyan__background-color--active--contrast
           );
         }
       }
@@ -601,6 +682,17 @@
   <button type="button" class="cui-button cui-button--white active-state hover-state">Pressed/Active</button>
   <button type="button" class="cui-button cui-button--white focus-state">Focus</button>
   <button type="button" class="cui-button cui-button--white disabled active">Disabled</button>
+</div>
+<div class="docs-example docs-example--spacing cui--contrast">
+  <h3>Contrast <code class="small">.cui-button .cui--contrast</code></h3>
+  <button type="button" class="cui-button cui-button--blue">Contrast</button>
+  <button type="button" class="cui-button cui-button--green">Contrast</button>
+  <button type="button" class="cui-button cui-button--red">Contrast</button>
+  <button type="button" class="cui-button cui-button--orange">Contrast</button>
+  <button type="button" class="cui-button cui-button--yellow">Contrast</button>
+  <button type="button" class="cui-button cui-button--mint">Contrast</button>
+  <button type="button" class="cui-button cui-button--purple">Contrast</button>
+  <button type="button" class="cui-button cui-button--pink">Contrast</button>
 </div>
 */
 
